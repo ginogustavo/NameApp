@@ -16,6 +16,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         print("Testing TXT")
+        var dataNombreRecibido:String? // Variable protejida
+        
+        dataNombreRecibido = txtNombre.text // retorna un string optional
+        // tengo que asignarla a un string optional
+        print(dataNombreRecibido)
+        
         
     }
 
